@@ -1,0 +1,21 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.card{
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+}
+
+.card h3{
+    color: #94a3b8;
+    margin-top: 10px;
+}
+ .card h2{
+    color : #38bdf8;
+    font-size: 32px;
+ }
